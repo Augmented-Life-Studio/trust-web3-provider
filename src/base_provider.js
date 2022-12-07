@@ -13,6 +13,7 @@ class BaseProvider extends EventEmitter {
     super();
     this.isDebug = !!config.isDebug;
     this.isTrust = true;
+    this.isMetaProWallet = true;
   }
 
   /**
