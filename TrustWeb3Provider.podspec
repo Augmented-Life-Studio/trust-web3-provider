@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/TrustWallet/trust-web3-provider'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hewigovens' => 'hewigovens@gmail.com', 'Viktor Radchenko' => 'vikmeup' }
-  s.source           = { :git => 'https://github.com/TrustWallet/trust-web3-provider.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:Augmented-Life-Studio/trust-web3-provider.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/TrustWallet'
 
   s.ios.deployment_target = '13.0'
